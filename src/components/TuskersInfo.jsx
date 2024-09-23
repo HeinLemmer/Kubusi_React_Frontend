@@ -11,8 +11,8 @@ const TuskersInfo = () => {
   return (
     <section id="tuskers" className="bg-[#F5F5DC] overflow-hidden">
         <div className="flex justify-center items-center p-4">
-            <h2 className=" pr-[1vw] text-3xl font-navbar text-[#515151] lg:text-4xl">More about </h2>
-            <h2 className="text-3xl font-navbar text-amber-500 lg:text-4xl">Tuskers Lodge</h2>
+            <h2 className=" pr-[1vw] text-2xl font-navbar text-[#515151] lg:text-4xl">More about </h2>
+            <h2 className="text-2xl font-navbar text-amber-500 lg:text-4xl">Tuskers Lodge</h2>
         </div>
         
         <div className="w-[90vw] grid grid-cols-3 mx-[5vw] my-[2vh] rounded-2xl text-lg gap-2 justify-center">

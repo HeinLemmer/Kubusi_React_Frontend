@@ -48,7 +48,7 @@ const Hero = () => {
   ></div>
 
      {/* Content on top */}
-    <div className="relative pl-14 pr-28 py-5 font-navbar mt-72 bg-black bg-opacity-80 w-screen lg:w-[50rem] lg:rounded-2xl">
+    <div className="relative pl-10 pr-28 py-5 font-navbar mt-72 bg-black bg-opacity-80 w-screen lg:w-[50rem] lg:rounded-2xl">
         <h1 className="text-[#F5F5DC] text-2xl font-bold lg:text-4xl">Welcome to</h1>
         <h1 className="text-amber-500 text-5xl font-extrabold whitespace-nowrap lg:text-7xl">Kubusi Safaris</h1>
     </div>

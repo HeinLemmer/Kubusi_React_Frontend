@@ -1,21 +1,12 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import logo from "../assets/logogrey.png";
 import { africamapbg, NAV_ITEMS } from "../constants/index.js";
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { AiOutlineClose } from 'react-icons/ai';
 
 const Header = () => {
-  const [isScrolled, setIsScrolled] = useState(false);
+  
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      setIsScrolled(window.scrollY > 50);
-    };
-
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -23,9 +14,7 @@ const Header = () => {
 
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 flex items-center justify-between p-1 transition-opacity delay-200 duration-500 z-50 ${
-        isScrolled ? 'opacity-90 xl:opacity-70 bg-[#F5F5DC]' : 'bg-[#F5F5DC] opacity-95'
-      } hover:opacity-95`}
+      className="fixed top-0 left-0 right-0 flex items-center bg-[#F5F5DC] justify-between p-1 z-50"
     >
       {/* Logo */}
       <div className="flex flex-shrink-0 pl-5">
@@ -59,7 +48,7 @@ const Header = () => {
       {/* Mobile Menu (visible when toggled) */}
 {isMenuOpen && (
   <div
-    className="lg:hidden absolute h-[30vh] top-full left-0 w-full bg-[#F5F5DC] bg-cover bg-center bg-no-repeat z-50"
+    className="lg:hidden absolute h-[50vh] top-full left-0 w-full bg-[#F5F5DC] bg-cover bg-center bg-no-repeat z-50"
   >
     
     <ul className="flex flex-col m-5">

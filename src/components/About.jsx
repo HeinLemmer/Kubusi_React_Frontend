@@ -9,8 +9,8 @@ const About = () => {
       <section id="about" className="p-8 relative bg-transparent bg-no-repeat overflow-hidden md:bg-cover"  style={{ backgroundImage: `url(${mapLogo})` }}>
       
       <div className="flex justify-center py-4 lg:justify-start xl:mt-[4vh]">
-      <h2 className="text-3xl font-navbar pr-3 text-[#515151] lg:text-4xl">More about</h2>
-      <h2 className="text-3xl font-navbar text-amber-500 lg:text-4xl">Kubusi Safaris</h2>
+      <h2 className="text-2xl font-navbar pr-3 text-[#515151] lg:text-4xl">More about</h2>
+      <h2 className="text-2xl font-navbar text-amber-500 lg:text-4xl">Kubusi Safaris</h2>
       </div>
       
       

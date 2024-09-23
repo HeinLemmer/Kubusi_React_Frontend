@@ -2,9 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --primary-color: #F5F5DC; /* Example color */
+  --secondary-color: #515151;
+}
+
 html {
-    background-color: #F5F5DC;
-    color: #515151;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
     scroll-behavior: smooth;
     max-width: 100vw;
     overflow-x: hidden;

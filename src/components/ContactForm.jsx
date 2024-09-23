@@ -39,7 +39,7 @@ const ContactForm = ({ setContactFormVisible }) => {
         }
       };
   return (
-    <div className="fixed z-50 w-[80vw] left-[10vw] top-[10vh] mb-[5vh] p-8 rounded-2xl justify-center font-navbar text-[#F5F5DC] bg-black 
+    <div className="fixed z-50 w-[80vw] left-[10vw] top-[6vh] mb-[5vh] p-8 rounded-2xl justify-center font-navbar text-[#F5F5DC] bg-black 
         bg-opacity-95 animate-slideIn">
         <button
         onClick={() => setContactFormVisible(false)}

@@ -48,7 +48,7 @@ const Header = () => {
       {/* Mobile Menu (visible when toggled) */}
 {isMenuOpen && (
   <div
-    className="lg:hidden absolute h-[50vh] top-full left-0 w-full bg-[#F5F5DC] bg-cover bg-center bg-no-repeat z-50"
+    className="lg:hidden absolute h-[40vh] top-full left-0 w-full bg-[#F5F5DC] bg-cover bg-center bg-no-repeat z-50"
   >
     
     <ul className="flex flex-col m-5">

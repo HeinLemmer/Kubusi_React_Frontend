@@ -76,7 +76,7 @@ const ActivitiesPage = () => {
       </div>
 
       {/* Mobile Menu (only visible on small screens) */}
-      <div className={`absolute top-24 left-0 contain-content w-full bg-[#F5F5DC] z-40 ${isMenuOpen ? 'block' : 'hidden'} md:hidden`}>
+      <div className={`absolute top-24 left-0 h-[40vh] contain-content w-full bg-[#F5F5DC] z-40 ${isMenuOpen ? 'block' : 'hidden'} md:hidden`}>
       
         <ul className="flex flex-col space-y-6 py-6">
         <li>

@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    background-color: #F5F5DC;
+    color: #515151;
+    scroll-behavior: smooth;
+    max-width: 100vw;
+    overflow-x: hidden;
+  }
+
+  ::selection {
+    background-color: #CC5500; /* Background color of the selection */
+    color: black;            /* Text color of the selection */
+  }
+
+
+  /*
+
+Ivory/Light Beige (#F5F5DC)
+Light Stone Grey (#D3D3D3)
+Sunset Orange (#FF4500
+Elephant Grey (#696969)
+Giraffe Tan (#DEB887)
+
+Example Palette:
+Primary: Sand/Dusty Beige (#D2B48C), Olive Green (#556B2F)
+Accent: Burnt Orange (#CC5500), Sunset Orange (#FF4500)
+Background: Ivory (#F5F5DC), Light Stone Grey (#D3D3D3)
+Text: Elephant Grey (#696969), Deep Forest Green (#228B22)
+  */

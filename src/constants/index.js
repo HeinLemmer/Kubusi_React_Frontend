@@ -84,7 +84,7 @@ export const footImg = footerImg;
   export const packages = [
     {
       title: 'Photographic Safari',
-      description: 'Learn more about our Photographic Safari Packages.',
+      description: 'Learn more about the Photographic Safari Packages we offer.',
       image: custom,
       bgColor: 'bg-black bg-opacity-80',
       link: '/photographic', // Link to more info page

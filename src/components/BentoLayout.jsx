@@ -30,7 +30,7 @@ const BentoLayout = ({ items }) => {
           
           <div className='relative w-full h-[3vh]'>
           <svg
-              className="absolute bottom-0 right-0 w-4 h-4 text-amber-500 mb-2 mr-2"
+              className="absolute bottom-0 right-0 w-6 h-6 text-amber-500 mb-2 mr-2"
               fill="none"
               stroke="currentColor"
               strokeWidth="2"

@@ -21,7 +21,7 @@ const PhotoPackage = () => {
     setIsMenuOpen(!isMenuOpen);
   };
   return (
-    <div className="w-[100vw] bg-gradient-to-b from-[#F5F5DC] to-[#DEB887]">
+    <div className="w-[100vw] overflow-hidden bg-gradient-to-b from-[#F5F5DC] to-[#DEB887]">
         <div className="relative flex items-center justify-between ml-[10vw] mt-[2vh]">
       {/* Logo Link */}
       <Link to="/">

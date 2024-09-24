@@ -29,12 +29,14 @@ const TuskersInfo = () => {
             <img 
                 src={aboutImg}
                 className="w-[30vw] rounded-2xl"
+                loading="lazy" 
                 />
             </div>
             <div className=" col-span-1 row-span-1 rounded-2xl lg:brightness-90 hover:brightness-100 duration-100 ease-in">
             <img 
                     src={tuskshort}
                     className="w-[30vw] rounded-2xl"
+                    loading="lazy" 
                     />
             </div>
             
@@ -42,6 +44,7 @@ const TuskersInfo = () => {
             <img 
                     src={tuskGD}
                     className="w-[30vw] rounded-2xl"
+                    loading="lazy" 
                     />
             </div>
             <div className="p-5 font-navbar bg-black bg-opacity-80 text-[#F5F5DC] rounded-2xl col-span-3 row-span-1">

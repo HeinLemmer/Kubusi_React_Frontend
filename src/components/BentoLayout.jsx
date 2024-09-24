@@ -16,6 +16,7 @@ const BentoLayout = ({ items }) => {
               src={item.image}
               alt={item.title}
               className=" w-full rounded-lg"
+              loading="lazy" 
             />
           </div>
 

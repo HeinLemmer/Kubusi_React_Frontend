@@ -16,7 +16,7 @@ const Newsletter = () => {
         // Set a timer to show the newsletter after 3 seconds
         const timer = setTimeout(() => {
           setVisible(true);
-        }, 4000); // 4 seconds
+        }, 3000); // 3 seconds
     
         // Cleanup the timer when component unmounts
         return () => clearTimeout(timer);

@@ -232,7 +232,7 @@ const ActivitiesPage = () => {
         
         <div className="relative ml-[10vw] mt-[2vh]">
         <p className=" font-navbar">
-        Have any questions? Feel free to contact us.
+        Have any questions?<br className="lg:hidden"/> Feel free to contact us.
             
         </p>
             <div >

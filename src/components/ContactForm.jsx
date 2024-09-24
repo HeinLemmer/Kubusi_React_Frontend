@@ -43,7 +43,7 @@ const ContactForm = ({ setContactFormVisible }) => {
         bg-opacity-95 animate-slideIn">
         <button
         onClick={() => setContactFormVisible(false)}
-        className="absolute text-3xl top-2 right-2 text-gray-500 hover:text-gray-800"
+        className="absolute text-3xl top-2 right-4 text-gray-500 hover:text-gray-800"
         >
             &#10005;
         </button>

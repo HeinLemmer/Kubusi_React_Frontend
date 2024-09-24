@@ -14,7 +14,7 @@ const Header = () => {
 
   return (
     <nav
-      className="fixed top-0 left-0 right-0 flex items-center bg-[#F5F5DC] justify-between p-1 z-50"
+      className="fixed top-0 left-0 right-0 flex items-center bg-[#F5F5DC] justify-between p-1 z-40"
     >
       {/* Logo */}
       <div className="flex flex-shrink-0 pl-5">

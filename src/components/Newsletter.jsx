@@ -1,9 +1,9 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 const Newsletter = () => {
 
     const [email, setEmail] = useState('');
-    const [visible, setVisible] = useState(true);
+    const [visible, setVisible] = useState(false);
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -12,6 +12,16 @@ const Newsletter = () => {
         setEmail('');
       };
 
+      useEffect(() => {
+        // Set a timer to show the newsletter after 3 seconds
+        const timer = setTimeout(() => {
+          setVisible(true);
+        }, 4000); // 4 seconds
+    
+        // Cleanup the timer when component unmounts
+        return () => clearTimeout(timer);
+      }, []);
+
       const handleClose = () => {
         setVisible(false); // Hide the newsletter when close is clicked
       };
@@ -19,7 +29,7 @@ const Newsletter = () => {
       if (!visible) return null; // Don't render if not visible
 
   return (
-    <div className=' animate-slideIn fixed z-50 rounded-2xl bg-black bg-opacity-70 px-10 py-16 top-32 font-semibold left-30 text-2xl 
+    <div className=' animate-slideIn fixed z-40 rounded-2xl bg-black bg-opacity-70 px-10 py-16 top-32 font-semibold left-30 text-2xl 
       lg:right-10'>
 
       <button

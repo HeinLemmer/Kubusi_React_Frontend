@@ -1,4 +1,5 @@
 import About from "../About"
+import Curtain from "../Curtain"
 import Footer from "../Footer"
 import Header from "../Header"
 import Hero from "../Hero"
@@ -9,6 +10,7 @@ import TuskersInfo from "../TuskersInfo"
 const Home = () => {
   return (
     <div id="home">
+      <Curtain/>
         <Header/>
         <Hero/>
         <About />

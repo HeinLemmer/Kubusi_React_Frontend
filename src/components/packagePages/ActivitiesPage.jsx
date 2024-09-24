@@ -6,6 +6,7 @@ import Footer from "../Footer";
 import { africamapbg, ragshark, scubadive } from "../../constants";
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { AiOutlineClose } from "react-icons/ai";
+import Curtain from "../Curtain";
 
 const ActivitiesPage = () => {
     const [isContactFormVisible, setContactFormVisible] = useState(false);
@@ -22,6 +23,7 @@ const ActivitiesPage = () => {
   };
   return (
     <div className="w-screen bg-gradient-to-b from-[#F5F5DC] to-[#DEB887]">
+      <Curtain/>
         <div className="relative flex items-center justify-between ml-[10vw] mt-[2vh]">
       {/* Logo Link */}
       <Link to="/">

@@ -6,6 +6,7 @@ import { africamapbg, bird, bok, gamedrive } from "../../constants";
 import Footer from "../Footer";
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { AiOutlineClose } from "react-icons/ai";
+import Curtain from "../Curtain";
 
 const PhotoPackage = () => {
     const [isContactFormVisible, setContactFormVisible] = useState(false);
@@ -22,6 +23,7 @@ const PhotoPackage = () => {
   };
   return (
     <div className="w-[100vw] overflow-hidden bg-gradient-to-b from-[#F5F5DC] to-[#DEB887]">
+      <Curtain/>
         <div className="relative flex items-center justify-between ml-[10vw] mt-[2vh]">
       {/* Logo Link */}
       <Link to="/">

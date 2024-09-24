@@ -76,9 +76,9 @@ const HuntPackage = () => {
       </div>
 
       {/* Mobile Menu (only visible on small screens) */}
-      <div className={`absolute top-24 h-[40vh] contain-content left-0 w-full bg-[#F5F5DC] z-40 ${isMenuOpen ? 'block' : 'hidden'} md:hidden`}>
+      <div className={`absolute top-24 contain-content left-0 w-full bg-[#F5F5DC] z-40 ${isMenuOpen ? 'block' : 'hidden'} md:hidden`}>
       
-        <ul className="flex flex-col space-y-6 py-6 z-50">
+        <ul className="flex flex-col space-y-6 py-6">
         <li>
             <Link to="/" className="text-lg font-navbar hover:text-amber-500" onClick={toggleMenu}>
               Home
@@ -105,7 +105,7 @@ const HuntPackage = () => {
               Contact Us
             </button>
           </li>
-          <img className='fixed top-0 right-0 opacity-20 w-[60vw] overflow-hidden z-10' src={africamapbg}/>
+          <img className='fixed top-0 right-0 opacity-20 w-[45vw] overflow-hidden z-10' src={africamapbg}/>
         </ul>
       </div>
     </div>
@@ -121,7 +121,7 @@ const HuntPackage = () => {
             <div className="col-span-1 row-span-1 p-5 rounded-2xl justify-center font-navbar text-[#F5F5DC] bg-black 
         bg-opacity-80 hover:brightness-105 transition-transform duration-300 xl:col-span-2">
                 <h4 className="text-xl pb-2 xl:text-3xl">Rifle Hunting:</h4>
-                <p className="lg:text-lg ">All hunting is done on foot in <b className="text-amber-500">The Spirit of Fair Chase</b>. We take great pride in promoting the sport of hunting, 
+                <p >All hunting is done on foot in <b className="text-amber-500">The Spirit of Fair Chase</b>. We take great pride in promoting the sport of hunting, 
                     enjoying the challenge of getting you in as close as possible offering the perfect shot. 
                     We back up wounded game with Terriers which is an adventure on its own.
                     The Eastern Cape with its great diversity in landscape and game is a true hunting paradise. 
@@ -132,7 +132,7 @@ const HuntPackage = () => {
             <div className="col-span-1 row-span-1 p-5 rounded-2xl justify-center font-navbar text-[#F5F5DC] bg-black 
         bg-opacity-80 hover:brightness-105 transition-transform duration-300">
             <h4 className="text-xl pb-2 xl:text-3xl">Big 5 Hunting:</h4>
-                <p className="lg:text-lg">Kubusi Safaris offers all the Big 5 in South Africa and Zimbabwe.  
+                <p >Kubusi Safaris offers all the Big 5 in South Africa and Zimbabwe.  
                     We have good concessions in Mpumalanga and North West Province for 
                     <b className="text-amber-500"> Hippo, Crocodile, Lion, Elephant, Buffalo, White and Black Rhino and limited Leopard hunts. </b> 
                     Our Lion hunting is done in the North West Province. This is a ranched hunt and is done ethically.  
@@ -140,7 +140,7 @@ const HuntPackage = () => {
                     we also have access to PAC (problem animal control) Big 5 animals. Contact us for quotes.
                 </p>
             </div>
-            <div className="col-span-1 xl:row-span-2 2xl:row-span-2">
+            <div className="col-span-1 xl:row-span-2 2xl:row-span-3">
             <img
               src={aboutImg2}
               alt="Kudu"
@@ -151,25 +151,21 @@ const HuntPackage = () => {
             <div className="col-span-1 row-span-1 p-5 rounded-2xl justify-center font-navbar text-[#F5F5DC] bg-black 
         bg-opacity-80 hover:brightness-105 transition-transform duration-300">
             <h4 className="text-xl pb-2 xl:text-3xl">Bow Hunting:</h4>
-                <p className="lg:text-lg">
+                <p >
                 Spot and stalk is also a very productive way of bow hunting. 
                 Mountain meadows, Acacia veld, and grassy clearings are often the preferred habitat for species such as 
                 <b className="text-amber-500"> Impala , Blesbuck, Red Hartebeest, Warthog, Blue Wildebeest, and Zebra. </b>
                  Being a rather hilly and vegetated region, most parts of the Eastern Cape make good stalking grounds.
                 </p>
-                <p className="lg:text-lg">
+                <p >
                 Game can often be observed from high vantage points with binoculars giving the hunter ample time to plan a stalk. 
                 Closing the distance from several hundred meters to under forty can often be very challenging and requires a fair 
                 amount of skill and patience, especially the last fifty meters. Bring kneepads! You will often be required to remove 
                 your shoes for the finals. We also have blinds to hunt from. 
                 </p>
             </div>
-            
-            
-        </div>
-
-        <div className="w-[80vw] mx-[10vw] p-5 rounded-2xl justify-center font-navbar text-[#F5F5DC] bg-black 
-        bg-opacity-80 hover:scale-105 transition-transform duration-300">
+            <div className="col-span-1 row-span-1 lg:col-span-2 2xl:col-span-1 p-5 rounded-2xl justify-center font-navbar text-[#F5F5DC] bg-black 
+        bg-opacity-80 hover:brightness-105 transition-transform duration-300">
             <h4 className="text-xl pb-2 xl:text-3xl">Rifle Hire:</h4>
                 <p className="pb-2 ">
                 For those who do not want the hassle of traveling with their own weapons, 
@@ -178,10 +174,14 @@ const HuntPackage = () => {
                 You can also use our preferred VIP meet and greet services at Johannesburg or Cape Town International airports. 
                 They will clear your weapons for you and guide you through the whole process.
                 </p>
-                <p className="pb-2 lg:text-lg">
+                <p className="pb-2">
                 Contact Henry Durrheim  +27 83 379 7062. henry@riflepermits.com 
                 </p>
         </div>
+            
+            
+        </div>
+
         <div className="w-[80vw] mx-[10vw] mt-[2vh] p-5 rounded-2xl justify-center font-navbar text-[#F5F5DC] bg-black 
         bg-opacity-80 hover:scale-105 transition-transform duration-300">
             <h4 className="text-xl pb-2 xl:text-3xl">Packages and Trophy Hunting:</h4>

@@ -76,7 +76,7 @@ const ActivitiesPage = () => {
       </div>
 
       {/* Mobile Menu (only visible on small screens) */}
-      <div className={`absolute top-24 left-0 h-[40vh] contain-content w-full bg-[#F5F5DC] z-40 ${isMenuOpen ? 'block' : 'hidden'} md:hidden`}>
+      <div className={`absolute top-24 left-0 contain-content w-full bg-[#F5F5DC] z-40 ${isMenuOpen ? 'block' : 'hidden'} md:hidden`}>
       
         <ul className="flex flex-col space-y-6 py-6">
         <li>
@@ -105,7 +105,7 @@ const ActivitiesPage = () => {
               Contact Us
             </button>
           </li>
-          <img className='fixed top-0 right-0 opacity-20 w-[60vw] overflow-hidden z-10' src={africamapbg}/>
+          <img className='fixed top-0 right-0 opacity-20 w-[45vw] overflow-hidden z-10' src={africamapbg}/>
         </ul>
       </div>
     </div>
@@ -114,10 +114,10 @@ const ActivitiesPage = () => {
         If your group splits up and you need an extra guide for any of the below activities, <br/>
         your guides fee will be $150 per day, if your hunting guide is taking you, no additional guides fee
         </h4>
-        <div className="w-[80vw] mx-[10vw] grid grid-cols-1 md:grid-cols-2 gap-1 pb-[2vh] justify-center text-lg">
+        <div className="w-[80vw] mx-[10vw] grid grid-cols-1 md:grid-cols-2 gap-1 pb-[2vh] justify-center">
         <div className="col-span-1 xl:col-span-2 row-span-1 p-5 font-navbar text-[#F5F5DC] bg-black 
                      bg-opacity-80 rounded-2xl">
-                        <h4 className="text-xl text-amber-500">Deep Sea Fishing</h4>
+                        <h4 className="text-xl xl:text-3xl text-amber-500">Deep Sea Fishing</h4>
                         <h5 className="py-2">Price: $150 per person sharing charter</h5>
                         <p>
                         Port Alfred is situated in the Eastern Cape Province, midway between East London and Port Elizabeth. 
@@ -131,7 +131,7 @@ const ActivitiesPage = () => {
             </div>
             <div className="col-span-1 xl:col-span-2 row-span-1 p-5 font-navbar text-[#F5F5DC] bg-black 
                      bg-opacity-80 rounded-2xl">
-                        <h4 className="text-xl text-amber-500">Shark Fishing from the shore</h4>
+                        <h4 className="text-xl xl:text-3xl text-amber-500">Shark Fishing from the shore</h4>
                         <h5 className="py-2">Price: $150 per person max 2 fishermen per session</h5>
                         <p>
                         We have some amazing catch, photo and release shark fishing along our coastline, just 40 minutes drive from Tuskers Lodge. 
@@ -147,7 +147,7 @@ const ActivitiesPage = () => {
 
             <div className="col-span-1 lg:col-span-2 row-span-1 p-5 font-navbar text-[#F5F5DC] bg-black 
                      bg-opacity-80 rounded-2xl">
-                        <h4 className="text-xl text-amber-500">Big 5 Game Drive</h4>
+                        <h4 className="text-xl xl:text-3xl text-amber-500">Big 5 Game Drive</h4>
                         <h5 className="py-2">Price: $150 per person</h5>
                         <p>
                         Pumba Game Reserve is nestled below the Highlands ridge, rich in diversity and wildlife, home of the big 5. 
@@ -162,7 +162,7 @@ const ActivitiesPage = () => {
             </div>
             <div className="col-span-1 row-span-1 p-5 font-navbar text-[#F5F5DC] bg-black 
                      bg-opacity-80 rounded-2xl">
-                        <h4 className="text-xl text-amber-500">Port Alfred Day trip with Spa Treatment</h4>
+                        <h4 className="text-xl xl:text-3xl text-amber-500">Port Alfred Day trip with Spa Treatment</h4>
                         <h5 className="py-2">Price: Request local price list</h5>
                         <p>
                         Spend time at Royal St Andrews Spa.
@@ -185,7 +185,7 @@ const ActivitiesPage = () => {
 
             <div className="col-span-1 row-span-1 p-5 font-navbar text-[#F5F5DC] bg-black 
                      bg-opacity-80 rounded-2xl">
-                        <h4 className="text-xl text-amber-500">Addo Elephant National Park and Port Elizabeth Day Trip</h4>
+                        <h4 className="text-xl xl:text-3xl text-amber-500">Addo Elephant National Park and Port Elizabeth Day Trip</h4>
                         <h5 className="py-2">Price: $150 per person</h5>
                         <p>
                         Day trip to Addo Elephant National Park, lunch at Cattle Baron
@@ -203,7 +203,7 @@ const ActivitiesPage = () => {
             </div>
             <div className="col-span-1 lg:col-span-2 row-span-1 p-5 font-navbar text-[#F5F5DC] bg-black 
                      bg-opacity-80 rounded-2xl">
-                        <h4 className="text-xl text-amber-500">Water activities in Port Alfred</h4>
+                        <h4 className="text-xl xl:text-3xl text-amber-500">Water activities in Port Alfred</h4>
                         <h5 className="py-2">Price: Request local price list</h5>
                         <p>
                         Water activities in Port Alfred

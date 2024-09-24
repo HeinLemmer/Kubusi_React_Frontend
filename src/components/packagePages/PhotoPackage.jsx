@@ -68,7 +68,7 @@ const PhotoPackage = () => {
         
 
         <button 
-          className="px-4 py-4 font-navbar text-lg hover:text-amber-500 hover:scale-105 transition-transform duration-300"
+          className="px-4 py-4 font-navbar text-lg hover:text-amber-500"
           onClick={handleButtonClick}
         >
           Contact Us
@@ -76,7 +76,7 @@ const PhotoPackage = () => {
       </div>
 
       {/* Mobile Menu (only visible on small screens) */}
-      <div className={`absolute top-28 left-0 h-[40vh] contain-content w-full bg-[#F5F5DC] z-40 ${isMenuOpen ? 'block' : 'hidden'} md:hidden`}>
+      <div className={`absolute top-28 left-0 contain-content w-full bg-[#F5F5DC] z-40 ${isMenuOpen ? 'block' : 'hidden'} md:hidden`}>
       
         <ul className="flex flex-col space-y-6 py-6">
             <li>
@@ -105,7 +105,7 @@ const PhotoPackage = () => {
               Contact Us
             </button>
           </li>
-          <img className='fixed top-0 right-0 opacity-20 w-[55vw] overflow-hidden z-10' src={africamapbg}/>
+          <img className='fixed top-0 right-0 opacity-20 w-[45vw] overflow-hidden z-10' src={africamapbg}/>
         </ul>
       </div>
     </div>
@@ -117,13 +117,13 @@ const PhotoPackage = () => {
         <div className="w-[80vw] mx-[10vw] grid grid-cols-1 md:grid-cols-2 gap-1 pb-[2vh] justify-center font-navbar">
             <div className="col-span-1 row-span-1 p-5 font-navbar text-[#F5F5DC] bg-black 
                      bg-opacity-80 rounded-2xl">
-                        <h4 className="text-lg">Day 1</h4>
+                        <h4 className="text-lg xl:text-3xl">Day 1</h4>
                         <p>Land in Port Elizabeth, collected by your personal guide and <b className="text-amber-500"> drive to Tuskers Lodge </b> near Makhanda.</p>
 
             </div>
             <div className="col-span-1 row-span-1 p-5 font-navbar text-[#F5F5DC] bg-black 
                      bg-opacity-80 rounded-2xl">
-                        <h4 className="text-lg">Day 2</h4>
+                        <h4 className="text-lg xl:text-3xl">Day 2</h4>
                         <p>We spend the day at Tuskers Lodge, morning Game Drive and afternoon <b className="text-amber-500"> light hike following wildlife on foot. </b> 
                         Evening sundowners at Sunset and back to the Boma for a traditional barbecue.</p>
 
@@ -133,7 +133,7 @@ const PhotoPackage = () => {
             </div>
             <div className="col-span-1 row-span-1 p-5 font-navbar text-[#F5F5DC] bg-black 
                      bg-opacity-80 rounded-2xl">
-                        <h4 className="text-lg">Day 3</h4>
+                        <h4 className="text-lg xl:text-3xl">Day 3</h4>
                         <p>
                         Sibuya Game Reserve is one of the most unique Safari destinations South Africa. 
                         From its Reception near the Ocean, it is unique in that it has more navigable river than any other 
@@ -152,7 +152,7 @@ const PhotoPackage = () => {
             </div>
             <div className="col-span-1 2xl:col-span-2 row-span-1 p-5 font-navbar text-[#F5F5DC] bg-black 
                      bg-opacity-80 rounded-2xl">
-                        <h4 className="text-lg">Day 4</h4>
+                        <h4 className="text-lg xl:text-3xl">Day 4</h4>
                         <p>
                         Pumba Game Reserve is nestled below the Highlands ridge, <b className="text-amber-500">  rich in diversity and wildlife</b>, home of the big 5. 
                         On arrival you will be invited to enjoy a welcome drink and a briefing of the days activities. 
@@ -168,7 +168,7 @@ const PhotoPackage = () => {
             </div>
             <div className="col-span-1 lg:col-span-2 row-span-1 p-5 font-navbar text-[#F5F5DC] bg-black 
                      bg-opacity-80 rounded-2xl">
-                        <h4 className="text-lg">Day 5</h4>
+                        <h4 className="text-lg xl:text-3xl">Day 5</h4>
                         <p>
                         <b className="text-amber-500"> 
                         Bush, Beach and Forrest tour. </b>This scenic route takes you through all the meandering valleys and Coastal Dune biomes. We will leave Tuskers and go through the valley on the Southwell Road. 
@@ -187,7 +187,7 @@ const PhotoPackage = () => {
             </div>
             <div className="col-span-1 row-span-1 p-5 font-navbar text-[#F5F5DC] bg-black 
                      bg-opacity-80 rounded-2xl">
-                        <h4 className="text-lg">Day 6</h4>
+                        <h4 className="text-lg xl:text-3xl">Day 6</h4>
                         <p>
                         We leave for a 1.5 hour drive to the world famous  <b className="text-amber-500">  Addo Elephant National Park. </b>Addo is the third largest Reserve in South Africa. 
                         Home of the famous Addo elephants. Morning drive followed by lunch at the Cattle Baron.    
@@ -196,7 +196,7 @@ const PhotoPackage = () => {
             </div>
             <div className="col-span-1 row-span-1 p-5 font-navbar text-[#F5F5DC] bg-black 
                      bg-opacity-80 rounded-2xl">
-                        <h4 className="text-lg">Day 7</h4>
+                        <h4 className="text-lg xl:text-3xl">Day 7</h4>
                         <p>
                         After breakfast we head off to Port Alfred and spend some time at the beach. En route we will pop into the famous Fish River Lighthouse for a <b className="text-amber-500"> panoramic view of the Indian Ocean. </b> 
                         Lunch in Port Alfred at Ocean Basket or Guidos on the Kowie River Mouth. A magic beach stroll from the Pier to Kellys beach is always a fine experience. On our way back to Tuskers we pop into the quaint 
@@ -206,7 +206,7 @@ const PhotoPackage = () => {
             </div>
             <div className="col-span-1 2xl:col-span-2 row-span-1 lg:row-span-2 p-5 font-navbar text-[#F5F5DC] bg-black 
                      bg-opacity-80 rounded-2xl">
-                        <h4 className="text-lg">Day 8</h4>
+                        <h4 className="text-lg xl:text-3xl">Day 8</h4>
                         <p>
                         After a light breakfast we will head off to  <b className="text-amber-500">  Kwantu Private Game reserve </b> for a day trip. Game drive followed by Lunch. 
                         The game reserve is home to the village of Sidbury, built by the British Settlers to support the sheep farming community. Here you will find 
@@ -226,7 +226,7 @@ const PhotoPackage = () => {
             </div>
             <div className="col-span-1 row-span-1 2xl:col-span-2 p-5 font-navbar text-[#F5F5DC] bg-black 
                      bg-opacity-80 rounded-2xl">
-                        <h4 className="text-lg">Day 9</h4>
+                        <h4 className="text-lg xl:text-3xl">Day 9</h4>
                         <p>
                         Time to say goodbye. Your guides will drop you off at the airport in Port Elizabeth after a hearty breakfast at Tuskers Lodge.     
                         </p>                      

@@ -17,8 +17,8 @@ const Curtain = () => {
 
   return (
     isVisible && (
-      <div className="fixed inset-0 bg-[#F5F5DC] z-50 flex items-center justify-center transition-opacity duration-2000 ease-out opacity-100">
-        <img src={logo} width={300} alt="logo" />
+      <div className="fixed inset-0 bg-[#F5F5DC]  z-50 flex items-center justify-center transition-opacity duration-2000 ease-out opacity-100">
+        <img src={logo} width={300} alt="logo" className="animate-pulse duration-300" />
       </div>
     )
   )

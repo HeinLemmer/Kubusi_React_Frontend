@@ -22,11 +22,27 @@ const BentoLayout = ({ items }) => {
 
           {/* Text Box */}
           <div className="p-4">
-            <h2 className="text-[#F5F5DC] text-2xl">{item.title}</h2>
-            <p className="text-[#F5F5DC] mt-2">{item.description}</p>
+            
+            <h2 className="text-[#F5F5DC] text-2xl">{item.title}</h2>       
+            <p className="text-[#F5F5DC] mt-2 mr-5">{item.description}</p>
+
+          </div>
+          
+          <div className='relative w-full h-[3vh]'>
+          <svg
+              className="absolute bottom-0 right-0 w-4 h-4 text-amber-500 mb-2 mr-2"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+            <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+            </svg>
           </div>
         </a>
       ))}
+            
     </div>
     </div>
   );
